@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\workspace\NIMS_HW\VT\flash_P\zynq_fsbl\fsbl.elf
+	C:\workspace\NIMS_HW\HW_vivado_made\mhz100_BD_wrapper.bit
+	C:\workspace\NIMS_HW\VT\flash_A\Release\flash_A.elf
+}
